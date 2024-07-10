@@ -10,12 +10,12 @@ function Body() {
                     </h1>
 
                     <div className="about">
-                        <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur quam perferendis voluptate ad, itaque blanditiis quaerat obcaecati necessitatibus hic. Quas corporis consectetur a consequuntur est praesentium ab cupiditate assumenda excepturi?</span>
+                        <span>Vois AI revolutionizes virtual interaction by seamlessly blending advanced AI technology with intuitive design. Experience the future of communication, where every interaction is personalized and effortless. Join us as we redefine the way you connect and engage, bringing innovation and convenience to your fingertips. Discover a world where virtual and reality converge.</span>
                     </div>
 
                     <div className="getstarted">
                         <a href="#">Get Started</a>
-                        
+
                     </div>
                 </div>
 
