@@ -13,7 +13,7 @@
 }
 
 body {
-    background-color: #121213;
+    background-color: #141414;
     margin: 0;
     padding: 0;
 }
@@ -69,6 +69,11 @@ body {
     margin-left: 20px;
     color: white;
     border-radius: 10px;
+}
+
+.content .otherside a:last-child:hover {
+    filter: drop-shadow(0 0 0.3em white);
+    transition: 0.5s ease-in-out;
 }
 
 .thebodycontent {
@@ -158,6 +163,150 @@ body {
     font-family: manrope;
     border-radius: 10px;
 }
+
+.getstarted a:hover {
+    filter: drop-shadow(0 0 0.3em dodgerblue);
+}
+
+.whatwebuilding {
+    margin-top: 200px;
+    background-image: url(./public/vois.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 450px;
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgba(30, 143, 255, 0.052);
+}
+
+.whatwebuilding .thecontent {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.whatwebuilding .thecontent .firstsidecontent {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.firstsidecontent .it {
+    width: 60%;
+}
+
+.it h1 {
+    font-size: 45px;
+    font-family: manrope;
+}
+
+.it .writeup {
+    width: 50%;
+    font-family: darker;
+}
+
+
+.it .button {
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.it .button a {
+    padding: 10px 20px;
+    background-color: white;
+    color: dodgerblue;
+    text-decoration: none;
+    font-family: manrope;
+    border-radius: 10px;
+}
+
+.firstsidecontent .somedots {
+    width: 40%;
+    display: flex;
+    justify-content: right;
+}
+
+.somedots .someline {
+    width: 70%;
+    transform: rotate(100deg);
+}
+
+.someline p {
+    letter-spacing: 10px;
+    color: dodgerblue;
+    text-align: left;
+    font-weight: 900;
+}
+
+
+.thecapable {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.thecapable .thecontainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.thecapable .thecontainer .in {
+    position: relative;
+    width: 32%;
+    background-color: #0c0c0c;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.thecapable .thecontainer .in:nth-child(2) {
+    background-color: rgba(30, 143, 255, 0.052);
+}
+
+.in .thenumber {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-align: center;
+
+}
+
+.thenumber span {
+    text-align: center;
+    color: #121213;
+    font-family: manrope;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    display: block;
+    border-radius: 100px;
+    font-weight: 900;
+}
+
+.in .whatit {
+    margin-top: 40px;
+}
+
+.in .whatit h2 {
+    color: dodgerblue;
+    font-family: manrope;
+    font-size: 30px;
+}
+
+.in .thewrite {
+    margin-bottom: 15px;
+    font-family: darker;
+}
+
+
+
+
+
 
 @media screen and (max-width: 600px) {
     .thebodycontent .thecontent {

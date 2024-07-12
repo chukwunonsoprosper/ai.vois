@@ -1,4 +1,6 @@
 import picture from './image/hey.png'
+import Nextsection from './section/nextsection'
+import Capability from './section/capability'
 
 function Body() {
     return (
@@ -26,6 +28,8 @@ function Body() {
                     </div>
                 </div>
             </div>
+            <Nextsection />
+            <Capability />
         </div>
     )
 }
