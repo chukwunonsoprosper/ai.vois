@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+    width: 0;
+}
+
 @font-face {
     font-family: manrope;
     src: url(./font/Manrope/Manrope-VariableFont_wght.ttf);
