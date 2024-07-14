@@ -395,7 +395,7 @@ body {
 
 .thewaitlist .thewait {
     width: 100%;
-    text-align: center;
+    text-align: left;
     color: white;
     padding: 5px 40px;
 }
