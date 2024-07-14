@@ -1,0 +1,125 @@
+@media screen and (max-width: 600px) {
+    .thebodycontent .thecontent {
+        width: 100%;
+        display: block;
+    }
+
+    .thebodycontent .thecontent .firstside {
+        width: 100%;
+    }
+
+    .thebodycontent .thecontent .theimage {
+        width: 100%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        margin-top: 120px;
+    }
+
+    .thebodycontent {
+        width: 100%;
+        margin-top: 100px;
+        color: white;
+        padding: 0px 20px;
+        font-family: darker;
+    }
+
+    .theimage .circle {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        background-color: dodgerblue;
+        border-radius: 100%;
+        animation: pop 1s linear infinite;
+        margin-left: unset;
+        z-index: -1000;
+    }
+
+    .theimage .img {
+        position: absolute;
+        height: 250px;
+        width: 250px;
+
+    }
+
+    .theimage .img img {
+        width: 100%;
+        margin-top: -60px;
+        margin-left: unset;
+    }
+
+    .otherside a {
+        display: none;
+    }
+
+    .otherside #lastchild {
+        display: block;
+    }
+
+    .header {
+        width: 100%;
+        background: #0e0e0f57;
+        -webkit-backdrop-filter: blur(90px);
+        backdrop-filter: blur(90px);
+        padding: 15px 20px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        left: 0;
+        top: 0;
+    }
+
+    .whatwebuilding {
+        margin-top: 500px;
+        background-image: url(./public/vois.png);
+        background-repeat: no-repeat;
+        background-position: right bottom;
+        background-size: 150px;
+    }
+
+    .whatwebuilding .thecontent .firstsidecontent {
+        width: 100%;
+        display: block;
+        justify-content: unset;
+        align-items: center;
+        position: relative;
+    }
+
+    .firstsidecontent .it {
+        width: 100%;
+    }
+
+
+    .firstsidecontent .somedots {
+        width: 40%;
+        display: flex;
+        justify-content: right;
+        position: absolute;
+        top: -90px;
+        right: 0;
+    }
+
+
+    .thecapable .thecontainer {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        overflow: auto;
+        overflow-x: scroll;
+    }
+
+    .thecapable .thecontainer .in {
+        position: relative;
+        min-width: 100%;
+        background-color: #0c0c0c;
+        padding: 15px;
+        border-radius: 20px;
+        margin-right: 20px;
+    }
+
+    .thecapable .thecontainer .in:last-child {
+        margin-right: unset;
+    }
+}
