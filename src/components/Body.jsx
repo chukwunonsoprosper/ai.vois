@@ -2,6 +2,7 @@ import picture from './image/hey.png'
 import Nextsection from './section/nextsection'
 import Capability from './section/capability'
 import Waitlist from './section/waitlist'
+import { Analytics } from "@vercel/analytics/react"
 
 function Body() {
     return (
