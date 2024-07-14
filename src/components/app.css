@@ -382,3 +382,38 @@ body {
     }
 
 }
+
+.thewaitlist {
+    width: 100%;
+    background-color: rgba(30, 143, 255, 0.045);
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    border-radius: 20px;
+}
+
+.thewaitlist .thewait {
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 5px 40px;
+}
+
+.thewait h1 {
+    font-size: 40px;
+    font-family: manrope;
+}
+
+.butn {
+    margin-top: 20px;
+}
+
+.thewait .butn button {
+    padding: 10px 20px;
+    background-color: white;
+    color: dodgerblue;
+    border-radius: 10px;
+    border: none;
+}
+

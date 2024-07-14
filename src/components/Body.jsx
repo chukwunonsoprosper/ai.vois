@@ -1,6 +1,7 @@
 import picture from './image/hey.png'
 import Nextsection from './section/nextsection'
 import Capability from './section/capability'
+import Waitlist from './section/waitlist'
 
 function Body() {
     return (
@@ -29,7 +30,9 @@ function Body() {
                 </div>
             </div>
             <Nextsection />
-            <Capability />
+            <Capability /> 
+            <Waitlist />
+            
         </div>
     )
 }
